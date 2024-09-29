@@ -18,6 +18,9 @@ The core of this project has been designed to capture real-time motion data-the 
 
 ![circuit diagram](https://github.com/Srsp-coder/Fall-Prevention-Sensors-and-AI/blob/main/images/circ.jpeg?raw=true)
 
+**Component Block Diagram:**
+
+![Component block diagram](https://github.com/Srsp-coder/Fall-Prevention-Sensors-and-AI/blob/main/images/compdigram.jpg?raw=true)
 
 ![Workflow](https://github.com/Srsp-coder/Fall-Prevention-Sensors-and-AI/blob/main/images/workflow.jpg?raw=true)
 
