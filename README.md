@@ -14,13 +14,18 @@ Falls are the most prevalent causes of injuries, particularly among the aged. Mo
 ## Methodology:
 The core of this project has been designed to capture real-time motion data-the accelerometer and gyroscope dats with the help of a MPU6050 sensor module. The NodeMCU ESP8266 processes the captured data by the sensor and transmits the data over Wi-Fi to a server where a trained AI model analyzes the sensor data based on the detection of patterns using Python libraries- Scikitlearn, and Pandas for fall risks. As soon as the AI model detects the fall, it buzzes the buzzer and sends the location of the user to the assigned caretaker with the help of the Neo 6M GPS module. This system acts as an efficient early warning mechanism that minimizes chances of falls and ensures higher safety for the user.
 
+
 **Circuit Diagram:**
+
 
 ![circuit diagram](https://github.com/Srsp-coder/Fall-Prevention-Sensors-and-AI/blob/main/images/circ.jpeg?raw=true)
 
+
 **Component Block Diagram:**
 
+
 ![Component block diagram](https://github.com/Srsp-coder/Fall-Prevention-Sensors-and-AI/blob/main/images/compdigram.jpg?raw=true)
+
 
 ![Workflow](https://github.com/Srsp-coder/Fall-Prevention-Sensors-and-AI/blob/main/images/workflow.jpg?raw=true)
 
