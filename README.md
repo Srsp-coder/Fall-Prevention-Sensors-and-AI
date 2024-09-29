@@ -6,7 +6,7 @@ This project aims to develop a wearable sensor system integrated with artificial
 
 ## Keywords:
 
-Fall Prevention, Sci-kit learn, pandas, numpy, Logistic Regression, joblib, Flask, HTTP, NodeMCU ESP8266, MPU6050
+Fall Prevention, Sci-kit learn, pandas, numpy, Logistic Regression, joblib, Flask, HTTP,WiFi NodeMCU ESP8266, MPU6050
 
 ## Introduction:
 Falls are the most prevalent causes of injuries, particularly among the aged. Most of these fall accidents end up resulting in major injuries and a lower quality of life. The concept of this project is to create an intelligent wearable device that can predict and prevent falls by constantly monitoring the user's movements and also the orientation of his or her body. It uses an MPU6050 sensor to capture real-time accelerations and gyroscopic information that is processed by a NodeMCU ESP8266 microcontroller. This data is then stored in a server. From where, the AI model can fetch the data and make predictions. Such a system is really beneficial as integrates AI algorithms for the detection of abnormal movements so that pre-fall warnings may be issued to improve matters appreciably over classical fall-detection systems.
